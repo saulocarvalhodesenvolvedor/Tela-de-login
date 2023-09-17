@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+
+}
+
+form{
+    width: 350px;
+    height: 390px;
+    border: 2px groove ;
+    margin: 40px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+
+input,
+button{
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button{
+    height: 27px;
+    background-color: rgb(34, 160, 112);
+    color: white;
+    border: 0;
+
+
+}
